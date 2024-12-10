@@ -1,0 +1,20 @@
+body { 
+    background-image: url('фон.jpg');          
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 24px;
+    padding: 50spx;
+    font-weight: 800;
+    line-height: 25px;
+}
+input {
+    box-shadow: none;
+    display: block;
+    margin-bottom: 24px;
+}
