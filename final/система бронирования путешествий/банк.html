@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <link rel="stylesheet" type="text/css" href="банк.css" >
+</head>
+<body>
+    
+  <div class="content-container"> 
+    <div class="card">
+    <main>
+        <div class="wrapper">
+          
+          <form>
+            
+           <div class="card-number">
+              <label>Номер карты</label>
+             <input required type="text" id="card-number" name="card-number" inputmode="numeric" autcomplete="cc-number" placeholder="0000 0000 0000 0000" minlength="3" maxlength="19" pattern="[0-9]+">
+            </div>
+            <div class="date-code"><div>
+              <label for="expiry-date">Срок действия</label>
+             <input required type="text" id="expiry-date" name="expiry-date" class="expiry-date" autocomplete="cc-exp" placeholder="MM/YY" minlength="4" maxlength="5" pattern="[0-9/]+">
+              </div>
+              <div>
+              <label for="security-code">Код CVV2\CVC2</label>
+                <input required type="password" id="security-code" name="security-code" inputmode="numeric" minlength="3" maxlength="3" pattern="[0-9]+"></div>
+            </div>
+            <p><a href="website finak.html" id="button" class="button">Оплатить</a></p>
+  
+          </form>
+        </div>
+      </main>
+      </div>
+      </div>
+</body>
+</html>

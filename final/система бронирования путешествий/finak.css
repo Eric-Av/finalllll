@@ -1,0 +1,47 @@
+body { 
+    background-color: #0000FF;
+    background-image: url('фон.jpg');          
+}
+
+
+input {
+    box-shadow: none;
+    display: block;
+    margin-bottom: 24px;
+}
+
+button {
+    border: none;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    font-size: 24px;
+    padding: 25px;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+a {
+    color: brown;
+}
+
+p {
+    color: black;
+    font-size: 24px;
+
+}
+
+mark {
+    color: cornflowerblue;
+    background-color: black;
+    font-size: 30px;
+}
+
+table {
+    color: #19337a;
+}
