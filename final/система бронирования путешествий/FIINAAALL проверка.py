@@ -93,7 +93,7 @@ class Tour:
             self.checked_out = False
             print("Возврат билета")
 
-trip = Tour("Приложение 228", "21E", "Москва")
+trip = Tour("Приложение 222", "21E", "Москва")
 
 
 trip.check_out()
